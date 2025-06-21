@@ -1,10 +1,11 @@
+const { expect } = require("chai");
+
 // Defining text characters for the empty and full hearts for you to use later.
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
-// Your JavaScript code goes here!
-
-
+const modal = document.querySelector('#modal');
+expect(modal).to.not.equal(null);
 
 
 //------------------------------------------------------------------------------
